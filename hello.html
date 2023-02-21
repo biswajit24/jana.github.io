@@ -4,11 +4,532 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
 </head>
 <body>
-    <h1>hello html</h1>
-    <span>welcome to  github</span>
+    <section class="banner pb-4">
+        <div class="container">
+            <nav class=" navbar-expand-lg px-0" data-aos="fade-down"
+            data-aos-offset="200"
+            data-aos-delay="500"
+            data-aos-duration="1000">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+                  <ul class="navbar-nav nav nav-pills">
+                    <li class="nav-item dropdown">
+                      <a class="active" data-toggle="pill" href="#pills-home"  aria-controls="pills-home" aria-selected="true"><i class="fa fa-home home_icon" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="pill" href="#pills-contact"  aria-controls="pills-contact" aria-selected="false">
+                        Products
+                      </a>
+                     
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="pill" href="#pills-contact"  aria-controls="pills-contact" aria-selected="false">
+                        Features
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="pill" href="#pills-contact"  aria-controls="pills-contact" aria-selected="false">
+                        Resources
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#"  id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="pill" href="#pills-contact"  aria-controls="pills-contact" aria-selected="false">
+                        Pricing
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#"  id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="pill" href="#pills-contact"  aria-controls="pills-contact" aria-selected="false">
+                          About Us
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <div class="phone"><i class="fa fa-phone call"></i></div>
+                        <a class="number" href="#">9748903696</a>
+                      </li>
+                  </ul>
+                </div>
+            </nav>
+            <div class="row">
+              <div class="col-lg-6 mt-5 button_middle">
+                <p class="text_1 text-uppercase" data-aos="fade-right" data-aos-delay="500" data-aos-duration="2000">welcome to</p>
+                <h1 class="text_2 text-capitalize" data-aos="fade-right" data-aos-delay="600" data-aos-duration="2000">the future of <br> urban living</h1>
+                <p class="text_3 text-capitalize" data-aos="fade-up" data-aos-delay="700" data-aos-duration="2000">apartment management software for making <br> residential complex smart and secure</p>
+                <button class="schedule text-capitalize p-2" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="800">schedule a demo</button>
+              </div>
+              <div class="col-lg-6">
+                <div class="building_portion" data-aos="fade-left" data-aos-delay="900" data-aos-duration="2000">
+                   <img src="images/building.png" class="images" id="img_right" alt="">
+                   <div class="youtube_back">
+                    <div class="youtube_click"><a href="https://www.youtube.com/embed/fOlCk1lNNpw" target="_blank"><i class="fa fa-play" aria-hidden="true"></i></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+      <h2 class="text-center text-capitalize mt-4 text_heading">Take full advantage of our <br> all rounder Features</h2>
+      <div class="row my-5">
+        <div class="col-lg img_portion right_portion"  data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000">
+          <img src="images/img_1.jpg" alt="">
+          <h4>Admin</h4>
+        </div>
+        <div class="col-lg img_portion right_portion"  data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"><img src="images/img_2.jpg" alt=""><h4>Community</h4></div>
+        <div class="col-lg img_portion"  data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"><img src="images/img_3.jpg" alt=""><h4>Guard</h4></div>
+      </div>
+      <hr/>
+      <div class="row mt-5">
+        <div class="col-lg img_portion right_portion" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"><img src="images/img_4.jpg" alt=""><h4 class="text-capitalize">Club house</h4></div>
+        <div class="col-lg img_portion right_portion" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"><img src="images/img_5.jpg" alt=""><h4 class="text-capitalize">Tower guard</h4></div>
+        <div class="col-lg img_portion" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000"><img src="images/img_6.jpg" alt=""><h4>Technician</h4></div>
+      </div>
+    </div>
+    <h2 class="text-center mt-4 app_heading">App Stat</h2>
+    <p class="text_4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, ducimus deleniti cumque fugiat dolorum</p>
+    <div class="container">
+      <div class="row upper_portion">
+        <div class="col-lg">
+          <div class="box" data-aos="flip-right" data-aos-delay="800" data-aos-duration="2000">
+            <div class="box_content">
+              <div class="col-lg-4">
+                <div class="like_box"><i class="fa fa-thumbs-o-up like_icon" aria-hidden="true"></i></div>
+              </div>
+              <div class="col-lg-8 px-0"><h5 class="num">102</h5><p class="text_5">Lorem ipsum dolor sit</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="box_2" data-aos="flip-down" data-aos-delay="800" data-aos-duration="2000">
+            <div class="box_content">
+              <div class="col-lg-4">
+                <div class="like_box"><i class="fa fa-thumbs-o-up like_change" aria-hidden="true"></i></div>
+              </div>
+              <div class="col-lg-8 px-0"><h5 class="num_2">53</h5><p class="text_6">Lorem ipsum dolor sit</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="box"  data-aos="flip-left" data-aos-delay="500" data-aos-duration="2000">
+            <div class="box_content">
+              <div class="col-lg-4">
+                <div class="like_box"><i class="fa fa-thumbs-o-up like_icon" aria-hidden="true"></i></div>
+              </div>
+              <div class="col-lg-8 px-0"><h5 class="num">32</h5><p class="text_5">Lorem ipsum dolor sit</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <div class="back_shape"></div>
+    <div class="container">
+      <div class="user_details p-4">
+        <h2 class="user">Users Distinction</h2>
+        <div class="nav_area">
+          <ul class="nav nav-pills" id="pills-tab" role="tablist">
+            <li class="link">
+              <a class="active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">User 1</a>
+            </li>
+            <li class="link">
+              <a class="users" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">User 2</a>
+            </li>
+            <li class="link">
+              <a class="users" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">User 3</a>
+            </li>
+            <li class="link">
+              <a class="users" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">User 4</a>
+            </li>
+            <li class="link">
+              <a class="users" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">User 5</a>
+            </li>
+            <li class="link">
+              <a class="users" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">User 6</a>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row mt-5">
+              <div class="col-lg travel_area"><img src="images/user_img.jpg" class="travel_img" alt=""></div>
+              <div class="col-lg">
+                <strong>Lorem, ipsum dolor sit</strong>
+                <p class="text_6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi inventore nihil molestiae ipsum necessitatibus fugit adipisci veritatis</p>
+                <div class="mt-5">
+                  <strong>Lorem, ipsum dolor sit</strong>
+                  <p class="text_6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi inventore nihil molestiae ipsum necessitatibus fugit adipisci veritatis</p>
+                </div>
+              </div>
+              <div class="col-lg">
+                <strong>Lorem, ipsum dolor sit</strong>
+                <p class="text_6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi inventore nihil molestiae ipsum necessitatibus fugit adipisci veritatis</p>
+                <div class="mt-5">
+                  <strong>Lorem, ipsum dolor sit</strong>
+                  <p class="text_6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi inventore nihil molestiae ipsum necessitatibus fugit adipisci veritatis</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="row mt-5">
+              <div class="col-lg travel_area"><img src="images/user_img_2.jpg" class="travel_img" alt=""></div>
+              <div class="col-lg">
+                <strong>Lorem, ipsum dolor sit</strong>
+                <p class="text_6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi inventore nihil molestiae ipsum necessitatibus fugit adipisci veritatis</p>
+                <div class="mt-5">
+                  <strong>Lorem, ipsum dolor sit</strong>
+                  <p class="text_6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi inventore nihil molestiae ipsum necessitatibus fugit adipisci veritatis</p>
+                </div>
+              </div>
+              <div class="col-lg">
+                <strong>Lorem, ipsum dolor sit</strong>
+                <p class="text_6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi inventore nihil molestiae ipsum necessitatibus fugit adipisci veritatis</p>
+                <div class="mt-5">
+                  <strong>Lorem, ipsum dolor sit</strong>
+                  <p class="text_6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi inventore nihil molestiae ipsum necessitatibus fugit adipisci veritatis</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="row mt-5">
+              <div class="col-lg travel_area"><img src="images/user_img.jpg" class="travel_img" alt=""></div>
+              <div class="col-lg">
+                <strong>Lorem, ipsum dolor sit</strong>
+                <p class="text_6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi inventore nihil molestiae ipsum necessitatibus fugit adipisci veritatis</p>
+                <div class="mt-5">
+                  <strong>Lorem, ipsum dolor sit</strong>
+                  <p class="text_6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi inventore nihil molestiae ipsum necessitatibus fugit adipisci veritatis</p>
+                </div>
+              </div>
+              <div class="col-lg">
+                <strong>Lorem, ipsum dolor sit</strong>
+                <p class="text_6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi inventore nihil molestiae ipsum necessitatibus fugit adipisci veritatis</p>
+                <div class="mt-5">
+                  <strong>Lorem, ipsum dolor sit</strong>
+                  <p class="text_6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi inventore nihil molestiae ipsum necessitatibus fugit adipisci veritatis</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="text-center text-capitalize our_client">Our clients say</h2>
+      <div class="line m-auto"><div class="line_inner m-auto"></div></div>
+      <p class="text_7 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, id est facilis quasodio  <br> accusamus quisquam corporis provident autem expedita</p>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="slide">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-lg-4 profile_img"><img src="images/man_profile_1.jpg" class="img_profile_1" alt=""></div>
+                    <div class="col-lg-8 content_center">
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et alias saepe debitis</p>
+                      <strong class="text-capitalize name">Ronojit roy</strong>
+                      <p class="text_8 text-capitalize">customer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-lg-4 profile_img"><img src="images/man_profile_2.jpg" class="img_profile_1" alt=""></div>
+                    <div class="col-lg-8 content_center">
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et alias saepe debitis</p>
+                      <strong class="text-capitalize name">Sujoy sengupta</strong>
+                      <p class="text_8 text-capitalize">customer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="slide">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-lg-4 profile_img"><img src="images/man_profile_1.jpg" class="img_profile_1" alt=""></div>
+                    <div class="col-lg-8 content_center">
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et alias saepe debitis</p>
+                      <strong class="text-capitalize name">Ronojit roy</strong>
+                      <p class="text_8 text-capitalize">customer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-lg-4 profile_img"><img src="images/man_profile_2.jpg" class="img_profile_1" alt=""></div>
+                    <div class="col-lg-8 content_center">
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et alias saepe debitis</p>
+                      <strong class="text-capitalize name">Sujoy sengupta</strong>
+                      <p class="text_8 text-capitalize">customer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="slide">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-lg-4 profile_img"><img src="images/man_profile_1.jpg" class="img_profile_1" alt=""></div>
+                    <div class="col-lg-8 content_center">
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et alias saepe debitis</p>
+                      <strong class="text-capitalize name">Ronojit roy</strong>
+                      <p class="text_8 text-capitalize">customer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-lg-4 profile_img"><img src="images/man_profile_2.jpg" class="img_profile_1" alt=""></div>
+                    <div class="col-lg-8 content_center">
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et alias saepe debitis</p>
+                      <strong class="text-capitalize name">Sujoy sengupta</strong>
+                      <p class="text_8 text-capitalize">customer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="slide">
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-lg-4 profile_img"><img src="images/man_profile_1.jpg" class="img_profile_1" alt=""></div>
+                    <div class="col-lg-8 content_center">
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et alias saepe debitis</p>
+                      <strong class="text-capitalize name">Ronojit roy</strong>
+                      <p class="text_8 text-capitalize">customer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-lg-4 profile_img"><img src="images/man_profile_2.jpg" class="img_profile_1" alt=""></div>
+                    <div class="col-lg-8 content_center">
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et alias saepe debitis</p>
+                      <strong class="text-capitalize name">Sujoy sengupta</strong>
+                      <p class="text_8 text-capitalize">customer</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="dot">
+          <a class="chev_left" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="chev_right px-4" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <section class="background mt-5">
+      <div class="form_portion p-3">
+        <h3 class="text-center text-capitalize">Get in touch</h3>
+        <div class="row mt-5">
+          <div class="col-lg left_form">
+            <div class="row callus_portion">
+              <div class="col-lg-2"><div class="icon_back"><i class="fa fa-phone" aria-hidden="true"></i></div></div>
+              <div class="col-lg-10"><p class="text_9 mb-0 text-uppercase">call us</p><strong class="call_num">9748903686</strong></div>
+            </div>
+            <div class="row mt-5 envelope_portion">
+              <div class="col-lg-2"><div class="icon_back"><i class="fa fa-envelope" aria-hidden="true"></i></div></div>
+              <div class="col-lg-10"><p class="text_9 m-0 text-uppercase">mail us</p><strong class="email">hello@the360.in</strong></div>
+            </div>
+          </div>
+          <div class="or_section">OR</div>
+          <div class="col-lg form_input_portion">
+            <input type="text" class="mb-3 p-2" placeholder="name">
+            <input type="number" class="mb-3 p-2" placeholder="phone">
+            <input type="email" class="p-2" placeholder="email">
+            <button class="mt-4 py-2 px-4 text-capitalize contact">contact us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-lg-4">
+            <h5 class="heading pb-3">The 360</h5>
+            <p class="text_demo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, quia incidunt doloribus aut sequi maxime praesentium dicta assumenda accusantium fugiat laboriosam neque</p>
+            <p class="text_demo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, quia incidunt doloribus aut sequi maxime praesentium dicta assumenda accusantium fugiat laboriosam neque</p>
+          </div>
+          <div class="col-lg">
+            <h5 class="heading pb-3">The Platform</h5>
+            <li class="platform_li">Sentinel app</li>
+            <li class="platform_li">Cloud Platform</li>
+            <li class="platform_li">Customer app</li>
+          </div>
+          <div class="col-lg">
+            <h5 class="heading pb-3">Features</h5>
+            <li class="features_li text-capitalize">visitor tracking</li>
+            <li class="features_li text-capitalize">vehicle tracking</li>
+            <li class="features_li text-capitalize">flat owner</li>
+            <li class="features_li text-capitalize">alarms</li>
+            <li class="features_li text-capitalize">commitee members</li>
+            <li class="features_li text-capitalize">incident logs</li>
+          </div>
+          <div class="col-lg">
+            <h5 class="heading pb-3">Facility</h5>
+            <li class="features_li text-capitalize">detailed reports</li>
+            <li class="features_li text-capitalize">maintenance</li>
+            <li class="features_li text-capitalize">facility booking</li>
+            <li class="features_li text-capitalize">guard monitoring</li>
+            <li class="features_li text-capitalize">virtual lock down</li>
+            <li class="features_li text-capitalize">vehicle guard</li>
+          </div>
+          <div class="col-lg">
+            <h5 class="heading pb-3">Company</h5>
+            <li class="Company_li text-capitalize">sign up</li>
+            <li class="features_li text-capitalize">about the360</li>
+            <li class="features_li text-capitalize">contact us</li>
+            <div class="store_area mt-3">
+              <div class="row align-items-center mobile_store">
+                <div class="col-lg-2 store_icon"><i class="fa fa-apple apple" aria-hidden="true"></i></div>
+                <div class="col-lg-10 app_content">
+                  <p class="text_10 text-capitalize">download on the</p>
+                  <strong class="app text-capitalize">app store</strong>
+                </div>
+              </div>
+            </div>
+            <div class="store_area mt-3">
+              <div class="row align-items-center mobile_store">
+                <div class="col-lg-2 store_icon"><img src="images/playstore_icon.jpg" alt=""></div>
+                <div class="col-lg-10 app_content">
+                  <p class="text_10 text-capitalize">get it on</p>
+                  <strong class="app text-capitalize">google play</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="border_line">
+        <div class="row">
+          <div class="col-lg-5">
+            <label class="kolkata text-uppercase">kolkata</label>
+            <p class="text_11 mb-0">hello@the360.in</p>
+            <p class="address text-capitalize mb-0">diamond arcade, 5th floor, unit 507 <br>68 jessore road, kolkata-700055</p>
+            <label class="phone_no text-capitalize">phone no - <span> 9748903696</span></label>
+          </div>
+          <div class="col-lg-5">
+            <label class="mumbai text-uppercase">mumbai</label>
+            <p class="mb-0 text-capitalize text_12">mascots coworking, 103/104, orbit plaza, <br>new prabhadebi marg, prabhadebi, <br> mumbai, maharashtra 400025 </p>
+            <label class="phone_no text-capitalize">phone no - 8600833446</label>
+          </div>
+          <div class="col-lg-2 social_area">
+            <label class="connect text-uppercase">connect with us</label>
+            <div class="row">
+              <div class="icon_circle mx-2"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+              <div class="icon_circle"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+              <div class="icon_circle mx-2"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
+            </div>
+          </div>
+        </div>
+        <hr class="border_line">
+        <div class="footer_last">
+          <p class="text-uppercase text_13">terms of service | privacy statement | refund policy</p>
+          <p class="text-capitalize text_13">copyright ©2019 - securnyx india private limited, - all right reserved</p>
+        </div>
+      </div>
+    </footer>
+    
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" ></script>
+
+  
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+      <script>
+        gsap.to("#img_right",{
+          scrollTrigger:{
+            scrub : 1
+          },
+          scale: 0.3,
+          x: 50,
+          rotation: 360
+        })
+        
+      </script>
     
 </body>
 </html>
