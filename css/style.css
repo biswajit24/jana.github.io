@@ -8,6 +8,7 @@
 }
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body{
     background-color: #1f2831 !important; 
@@ -197,7 +198,7 @@ strong{
 .text_3{
     color: #A77B06;
     margin-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 2.2rem;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -251,7 +252,7 @@ strong{
     z-index: 11;
 }
 .building_portion > .back{
-    position: absolute;
+    position: relative;
     top: -10%;
     width: 100%;
     height: 100%;
@@ -263,6 +264,7 @@ strong{
     animation: professionRotate 13s ease-in infinite;
     animation-delay: 3.5s;
     transition: 0.5s;
+    z-index: 12;
 }
 @keyframes professionRotate{
     0%, 20%{
@@ -283,7 +285,7 @@ strong{
 }
 
 .building_portion > .back> .circle{
-    background: rgba(108,117,125);
+    background: #131a22;
     position: absolute;
     left: 0;
     transform-origin: 22.5rem;
@@ -296,18 +298,30 @@ strong{
     place-items: center;
 }
 .building_portion > .back> .circle:hover{
-    background-color: #084d5d !important;
+    background-color: #A77B06 !important;
     cursor: pointer !important;
+    z-index: 16 !important;
 }
-.back> .circle > i{
+.back> .circle > a{
     color: #fff;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
-.back > .inside{
-    width: 90%;
-    height: 90%;
+.inside{
+    position: absolute;
+    top: -16px;
+    left: 6%;
+    width: 88%;
+    height: 88%;
     border: .3px dashed rgba(108,117,125,0.5);
     border-radius: 50%;
+    background: rgba(108,117,125);
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.inside:hover{
+    background: #A77B06;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 .bg{
     position: absolute;
@@ -323,12 +337,13 @@ strong{
 .biswajit_img{
     position: absolute;
     right: 0;
-    bottom: 0;
     z-index: 10;
     pointer-events: none;
-    width: 85%;
+    width: 78%;
     object-fit: cover;
+    transition: all 0.5s;
 }
+
 .card{
     width: 80% !important;
     min-height: 100%;
@@ -375,6 +390,7 @@ strong{
     font-weight: 500;
     font-family: 'Quicksand', sans-serif;
     opacity: 0.6;
+    text-align: justify;
 }
 .demo{
     background-color: #1f2831;
@@ -1109,7 +1125,7 @@ textarea:hover{
         top: 7rem;
     }
     .building_portion > .back{
-        top: 0%;
+        top: -11%;
     }
     .biswajit_img{
         bottom: -2.8rem;
@@ -1146,6 +1162,12 @@ textarea:hover{
  
 }
 @media screen and (max-width:800px) {
+    .card_about{
+        width: 80% !important;
+    }
+    .card-text{
+        font-size: 1.8rem ;
+    }
     html{
         font-size: 50%;
     }
@@ -1157,9 +1179,6 @@ textarea:hover{
     }
 }
 @media screen and (max-width:768px){
-    .card_about{
-        width: 70% !important;
-    }
     input,textarea{
         width:100%;
     }
@@ -1169,8 +1188,11 @@ textarea:hover{
 }
 @media screen and (max-width:568px){
     .portion{
-        margin: 0rem 1rem;
+        margin: 1rem;
     } 
+    .biswajit_jana{
+        color: #A77B06;
+    }
   
 }
 @media screen and (max-width:480px){
@@ -1178,13 +1200,20 @@ textarea:hover{
         font-size: 47%;
     }
     .card-text, .text_14{
-        font-size: 1.8rem;
+        font-size: 1.9rem;
+        line-height: 3rem;
     }
     .Portfolio{
         font-size: 6rem;
     }
     .link > a{
         font-size: 1.8rem;
+    }
+    ::placeholder{
+        font-size: 2rem;
+    }
+    input{
+        font-size: 2rem !important;
     }
 }
 @media screen and (max-width:420px){
@@ -1199,16 +1228,16 @@ textarea:hover{
     .biswajit_img{
         width:80%;
     }
-    .building_portion > .back{
-        width: 90%;
-        height: 90%;
-    }
     .back > .inside {
         width: 89%;
         height: 89%;
     }
-    .building_portion > .back> .circle{
-        transform-origin: 20.5rem;
+ 
+    .form_portion{
+        width: 90%;
+    }
+    .biswajit_jana{
+        display: block;
     }
 
 }
