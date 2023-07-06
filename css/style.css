@@ -290,7 +290,7 @@ strong{
     position: absolute;
     left: 0;
     transform-origin: 22.5rem;
-    transform: rotate(calc(360deg / 4 * var(--i)));
+    transform: rotate(calc(360deg / 6 * var(--i)));
     transition: all 0.5s;
     width: 5rem;
     height: 5rem;
@@ -418,29 +418,11 @@ strong{
     text-align: right;
     font-weight: 700;
 }
-.software_skill{
-    display: flex;
+.introduce > p{
+    color: rgba(108,117,125);
+    font-size: 2rem;
 }
-.software_skill>div{
-    width: 4rem;
-    height: 4rem;
-    background: rgba(108,117,125);;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem 1rem 2rem 0rem;
-    transition: all 0.5s ease-in-out;
-}
-.software_skill>div:hover{
-    border:.2rem solid #A77B06;
-    transition: all 0.5s ease-in-out;
-    cursor: pointer;
-}
-.software_skill>div>span>i{
-    font-size: 2.3rem;
-    color: #131a22;
-}
+
 .about_me{
     font-size: 3.7rem;
     color: #A77B06;
@@ -822,13 +804,14 @@ h4{
     color: #131a22;
     opacity: 0;
     transition: all 0.5s ease-in-out;
-    background: rgba(108,117,125, 0.5);
+    background: rgba(108,117,125, 0.7);
     font-family: 'Quicksand', sans-serif;
 }
 .portfolio_img{
     width:76%;
     transition: all 0.5s;
     position: relative;
+    object-fit: scale-down;
 }
 .portfolio_back:hover .portfolio_img 
 {
