@@ -1066,7 +1066,7 @@ textarea:hover{
     font-size: 1.7rem;
     color: #bcbcbc;
     -webkit-text-stroke: transparent;
-    text-transform: capitalize;
+    text-transform: lowercase;
 }
 .text_5{
     font-weight: 700;
