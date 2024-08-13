@@ -52,12 +52,17 @@ body{
     background: #031F25;
     max-width: 100%;
     width: 100%;
-    max-height: 100%;
-    height: 100vh;
+    min-height: 610px;
+    height: 100%;
     display: flex;
     align-items: center;
     overflow: hidden;
-    margin: 6rem 0rem 3rem 0rem;
+    margin: 1rem 0rem 3rem 0rem;
+}
+.button_middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .own_logo{
     color: #fff;
@@ -72,7 +77,7 @@ body{
     width: 25%;
 }
 .navbar{
-    position: fixed !important;
+    position: sticky !important;
     top: 0;
     left: 0;
     right: 0;
@@ -107,9 +112,7 @@ body{
 }
 .nav-item > .nav-link:hover{
     color: rgba(108,117,125);
-
 }
-
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #A77B06 !important;
     background-color: transparent !important;
@@ -281,7 +284,7 @@ strong{
 }
 .portion_back{
     position: relative;
-    top: -10%;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -296,7 +299,7 @@ strong{
 }
 .building_portion > .back{
     position: absolute;
-    top: -10%;
+    top: 0;
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -1149,7 +1152,7 @@ textarea:hover{
 
 @media screen and (max-width:991px) {
     html{
-        font-size: 50%;
+        font-size: 55%;
     }
     .bg{
         display: none !important;
@@ -1198,9 +1201,6 @@ textarea:hover{
         margin-bottom: 2rem;
         padding: 8rem 0rem;
     }
-    .building_portion > .back{
-        top: -11%;
-    }
     .biswajit_img{
         bottom: -2.8rem;
     }
@@ -1241,9 +1241,6 @@ textarea:hover{
     .card-text{
         font-size: 1.8rem ;
     }
-    html{
-        font-size: 50%;
-    }
     .back_shape{
         position: relative;
     }
@@ -1263,6 +1260,9 @@ textarea:hover{
     }
 }
 @media screen and (max-width:568px){
+    html{
+        font-size: 50%;
+    }
     .portion{
         margin: 1rem;
     } 
@@ -1272,7 +1272,7 @@ textarea:hover{
 }
 @media screen and (max-width:480px){
     html{
-        font-size: 47%;
+        font-size: 45%;
     }
     .card-text, .text_14{
         font-size: 1.9rem;
@@ -1292,9 +1292,7 @@ textarea:hover{
     }
 }
 @media screen and (max-width:420px){
-    html{
-        font-size: 42%;
-    }
+  
     .biswajit_img{
         width:80%;
     }
@@ -1311,14 +1309,9 @@ textarea:hover{
 }
 @media screen and (max-width:360px){
     html{
-        font-size: 41%;
+        font-size: 42%;
     }
     .bj{
         font-size: 5rem;
-    }
-}
-@media screen and (max-width:320px){
-    .link > a{
-        font-size: 1.5rem;
     }
 }
